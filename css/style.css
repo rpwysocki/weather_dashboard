@@ -12,17 +12,18 @@ html {
 body {
     min-height: 100%;
     line-height: 1;
-    font-family: sans-serif;
+    font-family: Georgia;
 }
 
 /* GLOBAL STYLES/CLASSES */
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(169, 203, 233);
 }
 
 header {
-    background-color: rgb(0, 157, 255);
+    background-color: rgb(7, 124, 196);
+    font-weight: bolder;
 }
 
 
@@ -46,8 +47,24 @@ header {
 /* CUSTOM STYLES */
 
 .search {
-    display: left;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
     
+}
+
+.current {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 4px;
+
+}
+
+#row {
+    width: fit-content;
+}
+
+#card {
+    background-color: rgb(7, 124, 196);
 }
