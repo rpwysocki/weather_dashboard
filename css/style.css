@@ -65,6 +65,6 @@ header {
     width: fit-content;
 }
 
-#card {
+.card {
     background-color: rgb(7, 124, 196);
 }
